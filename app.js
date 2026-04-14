@@ -65,7 +65,7 @@ const sessionOptions = {
 };
 
 app.get("/", (req, res) => {
-    res.send("Welcome to Wanderlust!! Please click on the top-lest icon to view listings");
+    res.render("home.ejs");
 });
 
 
