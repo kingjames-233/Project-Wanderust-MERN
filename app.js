@@ -64,9 +64,9 @@ const sessionOptions = {
     },
 };
 
-// app.get("/", (req, res) => {
-//     res.send("Hi, I am root");
-// });
+app.get("/", (req, res) => {
+    res.send("Welcome to Wanderlust!! Please click on the top-lest icon to view listings");
+});
 
 
 app.use(session(sessionOptions));
